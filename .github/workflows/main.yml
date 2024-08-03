@@ -42,7 +42,7 @@ jobs:
       - name: Show build status
         run: git status
 
-      - name: Push new files to the output branch
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
